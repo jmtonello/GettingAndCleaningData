@@ -59,30 +59,30 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
 These signals were used to estimate variables of the feature vector:
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-- Features are normalized and bounded within [-1,1].
+Features are normalized and bounded within [-1,1].
 
 The set of variables estimated from these signals that were summarized by run_analysis.R are: 
-mean(): Mean value
-std(): Standard deviation
+- mean(): Mean value
+- std(): Standard deviation
 
 ## Codebook 
 The variables in resulting dataset (averageData) are:
